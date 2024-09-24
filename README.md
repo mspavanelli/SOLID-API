@@ -1,5 +1,13 @@
 # Gympass Style App
 
+## Setup
+
+### Docker
+
+```sh
+docker compose up -d
+```
+
 ## Requisitos Funcionais
 
 - [ ] Deve ser possível se cadastrar
