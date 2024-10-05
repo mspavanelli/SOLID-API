@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start:dev": "tsx watch src/server.ts",
+    "test:watch": "vitest",
+    "test": "vitest run",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "prisma studio"
@@ -22,7 +25,9 @@
     "prisma": "5.20.0",
     "tsup": "8.3.0",
     "tsx": "4.19.1",
-    "typescript": "5.6.2"
+    "typescript": "5.6.2",
+    "vite-tsconfig-paths": "5.0.1",
+    "vitest": "2.1.2"
   },
   "dependencies": {
     "@prisma/client": "5.19.1",
