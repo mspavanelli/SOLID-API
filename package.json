@@ -8,6 +8,8 @@
     "start:dev": "tsx watch src/server.ts",
     "test:watch": "vitest",
     "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "prisma studio"
@@ -20,6 +22,8 @@
     "@rocketseat/eslint-config": "2.2.2",
     "@types/bcryptjs": "2.4.6",
     "@types/node": "22.6.1",
+    "@vitest/coverage-v8": "2.1.2",
+    "@vitest/ui": "2.1.2",
     "eslint": "8.56.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "prisma": "5.20.0",
